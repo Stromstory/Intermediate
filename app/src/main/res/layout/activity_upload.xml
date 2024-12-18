@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.dicoding.mysubmissionintermediate.ui.upl.UploadActivity">
+
+    <ImageView
+        android:id="@+id/imgPlaceholder"
+        android:layout_width="0dp"
+        android:layout_height="290dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/ic_image_holder_24"
+        android:contentDescription="@string/story_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="1.0" />
+
+    <Button
+        android:id="@+id/btn_Camera"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/camera"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="18dp"
+        app:layout_constraintTop_toBottomOf="@id/imgPlaceholder"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/btn_Gallery"
+        app:layout_constraintWidth_percent="0.4" />
+
+    <Button
+        android:id="@+id/btn_Gallery"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/gallery"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="18dp"
+        app:layout_constraintTop_toBottomOf="@id/imgPlaceholder"
+        app:layout_constraintStart_toEndOf="@id/btn_Camera"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_percent="0.4" />
+
+    <EditText
+        android:id="@+id/ed_add_description"
+        android:layout_width="match_parent"
+        android:layout_height="198dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:drawable/editbox_background"
+        android:gravity="top"
+        android:hint="@string/description"
+        android:inputType="textCapSentences|textMultiLine"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_Camera" />
+
+    <CheckBox
+        android:id="@+id/cb_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:padding="8dp"
+        android:text="@string/current_location"
+        android:textColor="@android:color/black"
+        app:layout_constraintTop_toBottomOf="@id/ed_add_description"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button_add"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:text="@string/upload"
+        android:textColor="@android:color/white"
+        app:layout_constraintTop_toBottomOf="@id/cb_location"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/progressIndicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Story App</string>
+    <string name="email_invalid">Masukkan email dengan benar!!</string>
+    <string name="minimum_char">Kata sandi minimal 8 karakter</string>
+    <string name="welcome">Welcome</string>
+    <string name="enter">Masuk</string>
+    <string name="attention">Dengan melanjutkan, Anda menyetujui Ketentuan Layanan dan Kebijakan Privasi kami.</string>
+    <string name="option">Belum punya akun? Buat akun</string>
+    <string name="success">Login Berhasil</string>
+    <string name="next">Selanjutnya</string>
+    <string name="pop_up_success">Lanjutkan untuk masuk dengan %1$s?</string>
+    <string name="done">Oke</string>
+    <string name="login_error"><![CDATA[Aktivasi login Gagal, Silahkan coba lagi\nMasukkan Email & Password dengan Benar!]]></string>
+    <string name="empty">Nama tidak boleh kosong!</string>
+    <string name="too_short">Masukkan nama anda minimal 3 karakter</string>
+    <string name="email_empty">Email tidak boleh kosong!</string>
+    <string name="register">Daftar</string>
+    <string name="register_success">Pembuatan Akun Berhasil</string>
+    <string name="account_created">Akun dengan %1$s sudah berhasil dibuat.\nKembali Login?</string>
+    <string name="account_failed">Akun dengan %1$s gagal dibuat, mohon memasukkan data dengan benar!</string>
+    <string name="form_message">Harap isi formulir terlebih dahulu!</string>
+    <string name="story_image">Gambar</string>
+    <string name="logout">Keluar</string>
+    <string name="story_add">Tambahkan cerita</string>
+    <string name="confirmation_logout">Anda yakin ingin keluar dari akun ini?</string>
+    <string name="cancel">batal</string>
+    <string name="exit_apl">Keluar dari aplikasi</string>
+    <string name="story_detail">Detail Story</string>
+    <string name="detail_nothing">Tidak ada rincian</string>
+    <string name="camera">Kamera</string>
+    <string name="gallery">Galeri</string>
+    <string name="description">Masukkan deskripsi cerita</string>
+    <string name="upload">Unggah</string>
+    <string name="story_upload">Kirimkan Cerita</string>
+    <string name="failed_upload">Kisah gagal terkirim</string>
+    <string name="success_upload">Kisah berhasil terkirim</string>
+    <string name="not_valid">Kisah tidak valid</string>
+    <string name="upload_confirmation">Apakah anda ingin mengunggah kisah ini?</string>
+    <string name="error_widget">Data tidak ditemukan</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="maps">Peta</string>
+    <string name="try_again">Coba lagi?</string>
+    <string name="current_location">Gunakan lokasi anda saat ini?</string>
+    <string name="not_found_location">Lokasi tidak ditemukan</string>
+
+
+</resources>

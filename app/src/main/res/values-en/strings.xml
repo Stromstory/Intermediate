@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">MySubmissionIntermediate</string>
+    <string name="email_invalid">Enter a valid email address!!</string>
+    <string name="minimum_char">Password must be at least 8 characters</string>
+    <string name="welcome">Welcome</string>
+    <string name="enter">Login</string>
+    <string name="attention">By continuing, you agree to our Terms of Service and Privacy Policy.</string>
+    <string name="option">Dont have an account? Create an account</string>
+    <string name="success">Login Successful</string>
+    <string name="next">Next</string>
+    <string name="pop_up_success">Continue to log in with %1$s?</string>
+    <string name="done">Okay</string>
+    <string name="login_error"><![CDATA[Login activation failed, please try again\nEnter the correct Email & Password!]]></string>
+    <string name="empty">Name cannot be empty!</string>
+    <string name="too_short">Enter your name with at least 3 characters</string>
+    <string name="email_empty">Email cannot be empty!</string>
+    <string name="register">Register</string>
+    <string name="register_success">Account Creation Successful</string>
+    <string name="account_created">An account with %1$s has been successfully created.\nReturn to Login?</string>
+    <string name="account_failed">Failed to create an account with %1$s, please enter the correct data!</string>
+    <string name="form_message">Please fill out the form first!</string>
+    <string name="story_image">Image</string>
+    <string name="logout">Logout</string>
+    <string name="story_add">Add Story</string>
+    <string name="confirmation_logout">Are you sure you want to log out of this account?</string>
+    <string name="cancel">Cancel</string>
+    <string name="exit_apl">Exit the application</string>
+    <string name="story_detail">Story Details</string>
+    <string name="detail_nothing">No details available</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="description">Enter the story description</string>
+    <string name="upload">Upload</string>
+    <string name="story_upload">Submit Story</string>
+    <string name="failed_upload">Story submission failed</string>
+    <string name="success_upload">Story submitted successfully</string>
+    <string name="not_valid">Invalid story</string>
+    <string name="upload_confirmation">Do you want to upload this story?</string>
+    <string name="error_widget">Data not found</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="maps">Maps</string>
+    <string name="try_again">Try again?</string>
+    <string name="current_location">Use your current location?</string>
+    <string name="not_found_location">Location not found</string>
+
+
+</resources>
